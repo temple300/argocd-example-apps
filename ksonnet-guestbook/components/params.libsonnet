@@ -10,7 +10,7 @@
       containerPort: 80,
       image: "gcr.io/heptio-images/ks-guestbook-demo:0.2",
       name: "ks-guestbook-ui",
-      replicas: 50,
+      replicas: 10,
       servicePort: 80,
       type: "LoadBalancer",
     },
